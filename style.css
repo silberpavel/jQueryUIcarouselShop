@@ -1,0 +1,13 @@
+.img {
+    display: inline-block;
+}
+
+body {
+    /* height: 200px; */
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 200px;
+}
