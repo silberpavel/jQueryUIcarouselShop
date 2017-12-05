@@ -41,7 +41,16 @@ $(document).ready(function() {
         $(function() {
             $("#draggable").draggable({
                 revert: true //Элемент уходит на свою позицию
-            })
+            });
+            $("#droppable").droppable({
+                drop: function(event, ui) {
+                    $(this)
+                        .addClass("ui-state-highlight")
+                        .find("p")
+                        .html("Dropped!" + ($('#draggable').attr('alt')));
+                    // console.log();
+                }
+            });
         });
 
     });

@@ -4,10 +4,18 @@
 
 body {
     /* height: 200px; */
-    background-image: url(img/bg.jpg);
+    /* background-image: url(img/bg.jpg); */
     background-repeat: no-repeat;
 }
 
 .container {
     height: 200px;
+}
+
+#droppable {
+    width: 250px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
 }
